@@ -6,7 +6,7 @@
 
 ## - 将其作为一个音乐摆件就好 -
 
-- [《律动磁带》操作说明]()
+- [《律动磁带》操作说明](https://github.com/MY2233/CassettePlayer2D/blob/main/《律动磁带》操作说明.md)
 
 ## ✨ 项目预览
 
