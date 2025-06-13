@@ -1,0 +1,35 @@
+# 设置所有文本文件在检出时使用 LF 换行符，这在跨平台开发中是最佳实践
+* text=auto eol=lf
+
+# 明确指定哪些是文本文件，并强制使用 LF
+*.cs         text eol=lf
+*.js         text eol=lf
+*.txt        text eol=lf
+*.md         text eol=lf
+*.json       text eol=lf
+*.xml        text eol=lf
+*.html       text eol=lf
+*.css        text eol=lf
+*.shader     text eol=lf
+*.asmdef     text eol=lf
+*.asmref     text eol=lf
+
+# 明确指定 Unity 的文件为二进制文件，防止 Git 错误地修改它们
+*.unity      binary
+*.asset      binary
+*.prefab     binary
+*.mat        binary
+*.meta       binary
+
+# 下面是你之前为 LFS 添加的规则，保留它们
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+# ... 其他 LFS 规则 ...
+
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
