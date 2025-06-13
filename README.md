@@ -4,16 +4,15 @@
 
 这是一个使用 Unity 引擎开发的 2D 应用程序，它不仅能播放音乐，更提供了一系列有趣的交互方式，如拖动唱臂来控制启停、在唱盘上实现 DJ 般的“搓碟”效果等。用户可以自由选择本地的音乐和图片，生成专属于自己的播放器界面。
 
-## · 将其作为一个音乐摆件就好 ·
+## - 将其作为一个音乐摆件就好 -
 
 ## ✨ 项目预览
 
-- 首页
-  - ![tmp230D](images/软件首页.png)
-- 播放页
-  - ![tmp3F85](images/播放页.png)
-- 运行页
-  - ![tmp3BC8](images/软件运行.png)
+- <img src="images/软件首页.png" alt="tmp230D" style="zoom:25%;" />
+
+- <img src="images/播放页.png" alt="tmp3F85" style="zoom:25%;" />
+
+- <img src="images/软件运行.png" alt="tmp3BC8" style="zoom:25%;" />
 
 ## 🚀 如何使用与运行
 
