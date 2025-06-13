@@ -8,11 +8,25 @@
 
 ## ✨ 项目预览
 
-- <img src="images/软件首页.png" alt="tmp230D" style="zoom:25%;" />
-
-- <img src="images/播放页.png" alt="tmp3F85" style="zoom:25%;" />
-
-- <img src="images/软件运行.png" alt="tmp3BC8" style="zoom:25%;" />
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/MY2233/CassettePlayer2D/blob/main/images/%E8%BD%AF%E4%BB%B6%E9%A6%96%E9%A1%B5.png" width="260">
+      <br>
+      <em>选择文件界面</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/MY2233/CassettePlayer2D/blob/main/images/%E6%92%AD%E6%94%BE%E9%A1%B5.png" width="260">
+      <br>
+      <em>播放与搓碟</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/MY2233/CassettePlayer2D/blob/main/images/%E8%BD%AF%E4%BB%B6%E8%BF%90%E8%A1%8C.png" width="260">
+      <br>
+      <em>交互细节</em>
+    </td>
+  </tr>
+</table>
 
 ## 🚀 如何使用与运行
 
