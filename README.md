@@ -6,9 +6,6 @@
 
 ## 已知问题名单：
 
-- [ ] Windows端：
-  - [ ] 鼠标焦点的脱离会导致游戏暂停
-
 - [ ] 谱面单轨的跳动效果有待优化
 
 ---
@@ -62,37 +59,24 @@
 - **Unity 版本:** 推荐使用 `Unity 2022.3.43f1c1` 或更高版本。
 - **渲染管线:** 项目基于 `Universal Render Pipeline (URP)` 创建。
 
-### 设置步骤
+### 引用插件
 
-1. 克隆或下载此仓库到本地。
+- Standalone File Browser (PC端):
 
-2. 使用 Unity Hub 打开项目。Unity 可能会花费一些时间来重新生成 `Library` 文件夹。
+   用于在 Windows, Mac, Linux 上打开文件选择窗口。
 
-3. 【重要】导入依赖项：
+  - [点击这里从 GitHub 下载插件](https://github.com/gkngkc/UnityStandaloneFileBrowser)
 
-    本项目依赖外部插件来实现跨平台的文件选择功能。请在 Unity 编辑器中，通过 
+- Native File Picker (安卓端):
 
-   ```
-   Assets -> Import Package -> Custom Package...
-   ```
+   用于在安卓设备上调用原生文件选择器。
 
-    导入以下插件：
+  - [点击这里从 GitHub 下载插件](https://github.com/yasirkula/UnityNativeFilePicker)
+  
+- UniWindowController (PC端):
+  用于在Windows，Mac，Linux上实现无边框效果。
 
-   - Standalone File Browser (PC端):
-
-      用于在 Windows, Mac, Linux 上打开文件选择窗口。
-
-     - [点击这里从 GitHub 下载插件](https://github.com/gkngkc/UnityStandaloneFileBrowser)
-
-   - Native File Picker (安卓端):
-
-      用于在安卓设备上调用原生文件选择器。
-
-     - [点击这里从 GitHub 下载插件](https://github.com/yasirkula/UnityNativeFilePicker)
-
-4. **打开主场景:** 在 `Project` 窗口中，找到并打开 `Assets/_Project/Scenes/SetupScene.unity`。这是软件的入口场景。
-
-5. 点击 Unity 编辑器顶部的播放按钮即可在编辑器中运行。
+  - [点击这里从 GitHub 下载插件](https://github.com/kirurobo/UniWindowController)
 
 ## 核心功能
 

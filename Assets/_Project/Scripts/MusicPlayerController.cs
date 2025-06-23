@@ -62,10 +62,16 @@ public class MusicPlayerController : MonoBehaviour
         _audioSource.playOnAwake = false;
         _audioSource.loop = true;
         if (_songProgressBar != null) { _songProgressBar.value = 0; }
+
+        // 【新增】允许应用在后台运行时继续运行
+        Application.runInBackground = true;
     }
 
     void Start()
     {
+        //阻止安卓端的息屏操作
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
         // 由唱臂控制初始播放，但我们在这里调用一次Pause，
         // 让AudioSource从“停止”进入“已暂停”状态，以解决首次寻址问题。
         // PauseMusic();
@@ -103,6 +109,7 @@ public class MusicPlayerController : MonoBehaviour
         {
             _songProgressBar.value = (SongDuration > 0) ? (DisplayTime / SongDuration) : 0;
         }
+
     }
 
     /// <summary>
@@ -357,5 +364,6 @@ public class MusicPlayerController : MonoBehaviour
         // 请确保你的设置场景文件名就是 "SetupScene"
         SceneManager.LoadScene("SetupScene");
     }
-    
+
+
 }
