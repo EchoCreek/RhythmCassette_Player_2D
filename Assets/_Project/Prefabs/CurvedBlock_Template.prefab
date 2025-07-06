@@ -65,4 +65,5 @@ MonoBehaviour:
   OuterRadius: 100
   StartAngle_Degrees: 0
   EndAngle_Degrees: 30
-  CurveSegments: 10
+  _curveSegments: 10
+  _baseColor: {r: 1, g: 1, b: 1, a: 1}
